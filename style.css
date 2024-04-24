@@ -6,7 +6,6 @@
 body{
     margin: 0;
     padding: 0;
-    overflow: scroll;
 }
 
 .header-container{
@@ -43,13 +42,6 @@ body{
     align-items: center;
     gap: 50px;
     justify-content: center;
-}
-
-.header-item2 img{
-}
-
-.test{
-    position: sticky;
 }
 
 .header-gradient-deco{
