@@ -97,3 +97,12 @@ a{
 .table-of-contents a{
     color: white;
 }
+
+.white-eyes{
+    display: flex;
+    gap: 255px;
+}
+
+.white-eyes img{
+    width: 150px;
+}
