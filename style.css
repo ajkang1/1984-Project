@@ -13,7 +13,6 @@ body{
     flex-direction: column;
     background-color: #bc3a3a;
     color: black;
-    background-image: linear-gradient(to top, #bc3a3a, #762323);
 }
 
 .header-item1{
@@ -42,14 +41,23 @@ body{
     align-items: center;
     gap: 50px;
     justify-content: center;
+    background-image: linear-gradient(to bottom, rgb(188, 58, 58), rgb(0, 0, 0));
+    padding-bottom: 200px;
+    position: sticky;
+    top: 0px;
 }
 
-.header-gradient-deco{
+.header-space{
+    padding: 250px;
+    background-color: black;
+}
+
+/* .header-gradient-deco{
     padding-bottom: 250px;
     background-color: #bc3a3a;
     background-image: linear-gradient(to bottom, rgb(188, 58, 58), rgb(0, 0, 0));
     text-align: center;
-}
+} */
 
 a{
     text-decoration: none;
