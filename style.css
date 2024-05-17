@@ -123,11 +123,6 @@ a{
     width: 150px;
 }
 
-article{
-    color: white;
-    padding: 75px;
-}
-
 .nav-side-bar{
     color: white;
     min-width: 25%;
@@ -165,4 +160,13 @@ article{
     color: white;
     text-align: center;
     padding: 50px;
+}
+
+section h1{
+    font-size: 35px;
+}
+
+.main-container-background{
+    padding: 75px;
+    color: white;
 }
