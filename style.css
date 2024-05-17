@@ -62,13 +62,6 @@ body{
     background-color: black;
 }
 
-/* .header-gradient-deco{
-    padding-bottom: 250px;
-    background-color: #bc3a3a;
-    background-image: linear-gradient(to bottom, rgb(188, 58, 58), rgb(0, 0, 0));
-    text-align: center;
-} */
-
 a{
     text-decoration: none;
     color: black;
