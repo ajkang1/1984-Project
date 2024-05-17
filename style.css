@@ -3,6 +3,12 @@
     font-size: 25px;
 }
 
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
 html{
     background-color: black;
 }
@@ -122,3 +128,41 @@ article{
     padding: 75px;
 }
 
+.nav-side-bar{
+    color: white;
+    min-width: 25%;
+}
+
+.side-bar-content{
+    position: sticky;
+    top: 75px;
+}
+
+.side-bar-content div{
+    font-size: 45px;
+    padding-bottom: 25px;
+    text-decoration: underline;
+}
+
+.side-bar-content li{
+    padding-bottom: 5px;
+}
+
+.main-container a{
+    color: white;
+}
+
+.main-container a:hover{
+    border-radius: 8px;
+    border: solid white;
+    padding: 2px;
+}
+
+.main-container{
+    display: flex;
+    gap: 50px;
+    flex-direction: row-reverse;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
